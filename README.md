@@ -6,15 +6,15 @@
 
 ### Table of Contest 
 
-1.Outline
+1. Outline
 
-2.Game Instructions
+2. Game Instructions
 
-3.Programs 
+3. Programs 
 
-4.location
+4. Location
 
-5.Game Display
+5. Game Display
 
 ### Outline
 By using Javascript/jQuery and the Math.floor(Math.random()) function
