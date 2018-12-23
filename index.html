@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Crystals Collector Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    </head>
+
+    <body>
+
+
+   <!-- // start Button -->
+        <button id="start" type="button" class="btn btn-default">Start</button>
+<!-- //title -->
+        <h2 id="title">Crystals Collector!</h2>
+<!-- //Game Instructions -->
+<div class="instruction">
+        <ol>
+      <li>You Will be given a random number at the start of the game.</li> 
+      <br>
+      <li>There are four crystals below, by clicking on a crystal you will add a specific amount of points to your total score. </li>
+      <br>
+    <li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+    <br>
+        <li>The Value of each crystal is hidden from you until you click on it.</li>
+        <br>
+        <li>Each time when the game starts, the game will change the values of each crystal.</li>
+    </ol>
+</div>
+
+<!-- //Gems Images -->
+<div class="gem">
+    <img id="diamond" src="assets/images/figure-1.png" height="120px", width="120px">
+    <img id="rombo" src="assets/images/figure-2.png" height="120px", width="120px">
+    <img id="circle" src="assets/images/figure-3.png" height="120px", width="120px">
+    <img id="rubi" src="assets/images/figure-4.png" height="120px", width="120px">
+</div>
+<!-- // buttons -->
+        <div class="score">
+        <p >Wins:<span id="win"> 0</span></p>  
+        <p>Losses:<span id="losses">  0</span> </p>
+        <p>Score to match</p>
+        <p id="choosenumber"></p>
+   
+        </p>
+    </div>
+    <p id="scoretotal">Your Total score is:</p>
+    <p id="totalscore"></p>
+
+    <script src="assets/javascript/game.js"></script>
+
+    </body>
+</head>
+</html>
+
