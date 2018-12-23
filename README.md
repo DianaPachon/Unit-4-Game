@@ -44,6 +44,7 @@ This math game will help the user improve their skills by using additional equat
  - Git Clone 
  https://github.com/DianaPachon/Unit-4-Game.git
  - Launch App
+ https://dianapachon.github.io/Unit-4-Game/.
  
  ### Game Display
  
