@@ -14,7 +14,6 @@
 
 4. Location
 
-5. Game Display
 
 ### Outline
 By using Javascript/jQuery and the Math.floor(Math.random()) function
@@ -46,6 +45,6 @@ This math game will help the user improve their skills by using additional equat
  - Launch App
  https://dianapachon.github.io/Unit-4-Game/.
  
- ### Game Display
+
  
  
